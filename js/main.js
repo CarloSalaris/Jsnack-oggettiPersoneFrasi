@@ -91,5 +91,5 @@ const drivingPermArr = peopleArr.map(
         return `${element.name} ${element.surname} ${permission} guidare perché ha ${element.age} anni`
     }
 )
-
+console.log(drivingPermArr);
 drivingPermArr.forEach((element)=>{console.log(element)});
